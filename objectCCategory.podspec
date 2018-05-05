@@ -51,9 +51,9 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "renjiajie" => "renjiajie0@163.com" }
-  # Or just: s.author    = "renjiajie"
-  # s.authors            = { "renjiajie" => "renjiajie0@163.com" }
+  s.author             = { "jhon" => "renjiajie0@163.com" }
+  # Or just: s.author    = "jhon"
+  # s.authors            = { "jhon" => "renjiajie0@163.com" }
   # s.social_media_url   = "http://twitter.com/renjiajie"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,8 +89,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "objectCCategory", "objectCCategory/**/*.{h,m}"
+  s.exclude_files = "objectCCategory/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
